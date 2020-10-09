@@ -17,23 +17,23 @@ body {
 }
 
 .loader {
-  
+  position: relative;
   top: 33%;
   right: 18%;
   border-radius: 50%;
   border: 6px solid #99e2d0;
-  width: 62%;
+  width: 58%;
   height: 31%;
   animation: fadeout 3s linear;
 }
 
 .loader::after {
   content: "";
-  
+  position: relative;
   top: -6px;
   left: -6px;
   width: 100%;
-  height: 99%;
+  height: 100%;
   border: 6px solid transparent;
   border-top-color: white;
   border-radius: 50%;
@@ -50,6 +50,7 @@ body {
   }
   100% {
     transform: rotate(360deg);
+    display: none;
   }
 }
 @keyframes fadeout {
