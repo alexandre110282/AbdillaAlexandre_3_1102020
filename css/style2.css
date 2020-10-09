@@ -21,6 +21,7 @@ header a{
 }
 header h2 {
   text-align: center;
+  display: block;
 }
 
 header i {
@@ -44,8 +45,9 @@ main {
   padding-bottom: 2%;
 }
 
-h2 i {
-  float: right;
+h2  {
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes fadein {
