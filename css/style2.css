@@ -15,6 +15,10 @@ body {
   max-width: 425px;
 }
 
+header a{
+  text-decoration: none;
+  color: black;
+}
 header h2 {
   text-align: center;
 }
@@ -85,7 +89,7 @@ main li {
 li:hover > .check {
   background-color: #99E2D0;
   width: 10%;
-  transform: scale(1);
+  transform: scalex(1);
   transition: transform 1000ms;
   transform-origin: 0% 50%;
 }
@@ -95,13 +99,27 @@ li:hover > .check {
   width: 0%;
   border-radius: 10px;
   padding: 0%;
-  transform: scale(0);
-}
+  transform: scalex(0);}
 
 .check i {
   margin-left: 25%;
   margin-top: 55%;
 }
+
+
+.check i:hover{
+  animation: spin 2s linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 
 .price {
   margin-left: 16%;
@@ -139,6 +157,11 @@ footer {
   background-color: #303030;
   color: white;
   padding: 1%;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
 }
 
 footer li {
