@@ -138,6 +138,83 @@ header {
   margin-left: 10px;
 }
 
+input[type="checkbox"].heart1 {
+  display: none;
+}
+
+input[type="checkbox"].heart1 + label::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f004';
+  font-size: 1.2em;  
+  color: black;
+  margin-right: 0.3rem;
+  font-weight:200;
+}
+
+input[type="checkbox"].heart1:checked + label::before {
+  content:'\f004';
+  color: #9356DC ;
+  font-weight:900;
+}
+
+input[type="checkbox"].heart2 {
+  display: none;
+}
+
+input[type="checkbox"].heart2 + label::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f004';
+  font-size: 1.2em;  
+  color: black;
+  margin-right: 0.3rem;
+  font-weight:200;
+}
+
+input[type="checkbox"].heart2:checked + label::before {
+  content:'\f004';
+  color: #9356DC ;
+  font-weight:900;
+}
+
+input[type="checkbox"].heart3 {
+  display: none;
+}
+
+input[type="checkbox"].heart3 + label::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f004';
+  font-size: 1.2em;  
+  color: black;
+  margin-right: 0.3rem;
+  font-weight:200;
+}
+
+input[type="checkbox"].heart3:checked + label::before {
+  content:'\f004';
+  color: #9356DC ;
+  font-weight:900;
+}
+
+input[type="checkbox"].heart4 {
+  display: none;
+}
+
+input[type="checkbox"].heart4 + label::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f004';
+  font-size: 1.2em;  
+  color: black;
+  margin-right: 0.3rem;
+  font-weight:200;
+}
+
+input[type="checkbox"].heart4:checked + label::before {
+  content:'\f004';
+  color: #9356DC ;
+  font-weight:900;
+}
+
+
 #restaurant {
   margin-top: 1%;
   background-color: rgba(153, 226, 208, 0.4);

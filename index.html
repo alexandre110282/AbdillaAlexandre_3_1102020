@@ -1,95 +1,113 @@
 <DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <title>Ohmyfood</title>
-    <link rel="stylesheet" href="css/cartestyle.css">
-</head>
-<body>
-
-<section>
-    <span class="loader"></span>
-</section>
-
-    <header>
-        <h1 class="logo">Ohmyfood</h1>
-            <div class="localisation"><p><i class="fas fa-map-marker-alt"></i>Paris, Belleville</p></div>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <title>Ohmyfood</title>
+        <link rel="stylesheet" href="css/cartestyle.css">
+    </head>
+    <body>
     
-            <div class="book">
-                <h2>Book the menu you like</h2>
-                    <p>Discover top-of-the-art restaurants we picked for you</p>
-            <div class="btn_explore"><p>Explore our Restaurants</p></div>
-            </div>
-    </header>
-
-    <main>
-        <section id="tutorial">
-            <h2>How it works</h2> 
-                <ol>
-                    <li>              
-                        <div class="number">1</div><div><p><i class="fas fa-mobile-alt"></i>Choose a restaurant</p></div>
-                    </li>
-                    <li>
-                        <div class="number">2</div><div><p><i class="fas fa-list-ul"></i>Create your menu</p></div>
-                    </li>
-                    <li>
-                        <div class="number">3</div><div><p><i class="fas fa-store"></i>Go enjoy it at the restaurant</p></div>
-                    </li>
-             </ol>  
-        </section>
-
-        <section id="restaurant">
-            <h2>Restaurants</h2>
-
-                <div class="btn"><a href="menufullpalette.html"><img src="images/fullpalette.jpg" height="200" width="280" alt="fullpalette"/></a>
-                    <div class="ville">
-                        <div><p>The Full Palette</p> 
-                            <p>New York</p></div>
-                        <i class="far fa-heart"></i>
-                    </div>
-
+    <section>
+        <span class="loader"></span>
+    </section>
+    
+        <header>
+            <h1 class="logo">Ohmyfood</h1>
+                <div class="localisation"><p><i class="fas fa-map-marker-alt"></i>Paris, Belleville</p></div>
+        
+                <div class="book">
+                    <h2>Book the menu you like</h2>
+                        <p>Discover top-of-the-art restaurants we picked for you</p>
+                <div class="btn_explore"><p>Explore our Restaurants</p></div>
                 </div>
-
-                <div class="btn"><a href="menuenchanted.html"><img src="images/enchanted.jpg" height="200" width="280" alt="enchanted"/></a>
-                    <div class="ville">
-                        <div><p>The Enchanted Plate</p>
-                        <p>New York</p></div>
-                        <i class="far fa-heart"></i>
+        </header>
+    
+        <main>
+            <section id="tutorial">
+                <h2>How it works</h2> 
+                    <ol>
+                        <li>              
+                            <div class="number">1</div><div><p><i class="fas fa-mobile-alt"></i>Choose a restaurant</p></div>
+                        </li>
+                        <li>
+                            <div class="number">2</div><div><p><i class="fas fa-list-ul"></i>Create your menu</p></div>
+                        </li>
+                        <li>
+                            <div class="number">3</div><div><p><i class="fas fa-store"></i>Go enjoy it at the restaurant</p></div>
+                        </li>
+                 </ol>  
+            </section>
+    
+            <section id="restaurant">
+                <h2>Restaurants</h2>
+    
+                    <div class="btn"><a href="menufullpalette.html"><img src="images/fullpalette.jpg" height="200" width="280" alt="fullpalette"/></a>
+                        <div class="ville">
+                            <div><p>The Full Palette</p> 
+                                 <p>New York</p>
+                            </div>                          
+                            <div>              
+                                <input type="checkbox" class="heart1" id="heart1">
+                                <label for ="heart1"></label>            
+                            </div>                         
+                        </div>     
                     </div>
-                </div>
-
-                <div class="btn"><a href="menubastille.html"><img src="images/bastille.jpg" height="200" width="280" alt="bastille"/></a>
-                    <div class="ville">
-                        <div><p>Bastille </p>
-                        <p>New York</p></div>
-                        <i class="far fa-heart"></i>
+                      
+                    <div class="btn"><a href="menuenchanted.html"><img src="images/enchanted.jpg" height="200" width="280" alt="enchanted"/></a>
+                        <div class="ville">
+                            <div>
+                                <p>The Enchanted Plate</p>
+                                <p>New York</p>
+                            </div>                         
+                            <div>
+                                <input type="checkbox" class="heart2" id="heart2">
+                                <label for ="heart2"></label>                               
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="btn"><a href="menugourmand.html"><img src="images/gourmand.jpg" height="200" width="280" alt="gourmand"/></a>
-                    <div class="ville">
-                        <div><p>Le Gourmand </p>
-                        <p>New York</p></div>
-                        <i class="far fa-heart"></i>
+    
+                    <div class="btn"><a href="menubastille.html"><img src="images/bastille.jpg" height="200" width="280" alt="bastille"/></a>
+                        <div class="ville">
+                            <div>
+                                <p>Bastille</p>
+                                <p>New York</p>
+                            </div>
+                             <div>              
+                                <input type="checkbox" class="heart3" id="heart3">
+                                <label for ="heart3"></label>            
+                          </div>
+                        </div>
                     </div>
-                </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <h4 class="logo">Ohmyfood</h4>
-            <nav class="menu">
-                <ul>
-                <li><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
-                <li><i class="fas fa-hands-helping"></i>Become a partner</a></li>
-                <li>Legal</a></li>
-                <li><a href="mailto:nullepart@mozilla.org">Contact</a></li>
-                </ul>
-            </nav>
-    </footer>
-
-</body>
-</html>
+    
+                    <div class="btn"><a href="menugourmand.html"><img src="images/gourmand.jpg" height="200" width="280" alt="gourmand"/></a>
+                        <div class="ville">
+                            <div>
+                                <p>Le Gourmand</p>
+                                <p>New York</p>
+                            </div>
+                            <div>              
+                                <input type="checkbox" class="heart4" id="heart4">
+                                <label for ="heart4"></label>            
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    
+        </main>
+    
+        <footer>
+            <h4 class="logo">Ohmyfood</h4>
+                <nav class="menu">
+                    <ul>
+                    <li><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
+                    <li><i class="fas fa-hands-helping"></i>Become a partner</a></li>
+                    <li>Legal</a></li>
+                    <li><a href="mailto:nullepart@mozilla.org">Contact</a></li>
+                    </ul>
+                </nav>
+        </footer>
+    
+    </body>
+    </html>
