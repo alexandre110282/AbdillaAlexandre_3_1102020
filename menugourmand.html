@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/tablette.css" />
     <title>Ohmyfood</title>
     <link rel="stylesheet" href="css/style2.css">
 </head>
@@ -11,32 +12,38 @@
 <body>
     <header>
         <a href="index.html"><i class="fas fa-arrow-left"></i><h2 class="logo">ohmyfood</h2></a>
-        <div><img src="images/bastille.jpg" height="250" width="100%" alt="fullpalette"/></div>   
+        <div><img src="images/gourmand.jpg" height="250" width="100%" alt="fullpalette"/></div>   
     </header>
 
     <main>
-        <h2 class="logo">Bastille<i class="far fa-heart"></i></h2>
+        <h2 class="logo">Le Gourmand<input type="checkbox" class="heart" id="heart">
+            <label for ="heart"></label></h2>
         <div class=entrees><h3>ENTREES</h3>
             <hr>
             <ul>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">25€</div> 
-                    <div><p>Tuna Carpaccio</p>
+                    <div>
+                        <p class="nom">Tuna Carpaccio</p>
                         <p>seasoned with yuzu</p>
                     </div>               
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">35€</div>
-                    <div><p>Crunchy Lobster Croquets</p>
-                        <p>with seasonal vegetables</p></div>                   
+                    <div>
+                        <p class="nom">Crunchy Lobster Croquets</p>
+                        <p>with seasonal vegetables</p>
+                    </div>                   
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">20€</div>
-                    <div><p>Mushroom soup</p>
-                        <p>with truffles</p></div>    
+                    <div>
+                        <p class="nom">Mushroom soup</p>
+                        <p>with truffles</p>
+                    </div>    
                 </li>
             </ul>  
         </div>
@@ -47,20 +54,26 @@
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">40€</div>
-                    <div><p>Roast Chiken with Provincal Herbs</p>
-                        <p>with truffle cream</p></div>               
+                    <div>
+                        <p class="nom">Roast Chiken with Provincal Herbs</p>
+                        <p>with truffle cream</p>
+                    </div>               
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">35€</div>
-                    <div><p>Roasted Lobster</p>
-                        <p>with seasonal vegetables</p></div>                    
+                    <div>
+                        <p class="nom">Roasted Lobster</p>
+                        <p>with seasonal vegetables</p>
+                    </div>                    
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">44€</div>
-                    <div><p>Angust Beef Ribs</p>
-                        <p>with mashed parsnips</p></div>                   
+                    <div>
+                        <p class="nom">Angust Beef Ribs</p>
+                        <p>with mashed parsnips</p>
+                    </div>                   
                 </li>
             </ul>
         </div>
@@ -70,20 +83,25 @@
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">18€</div>
-                    <div><p>Assorted Dessert Plate</p>
-                    <p>Chef's choice</p></div>             
+                    <div>
+                        <p class="nom">Assorted Dessert Plate</p>
+                        <p>Chef's choice</p></div>             
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">22€</div>
-                    <div><p>Crème brulée</p>
-                    <p>Revisited</p></div>             
+                    <div>
+                        <p class="nom">Crème brulée</p>
+                        <p>Revisited</p>
+                    </div>             
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">23€</div>
-                    <div><p>Tiramisu</p>
-                    <p>with hazelnuts</p></div>              
+                    <div>
+                        <p class="nom">Tiramisu</p>
+                        <p>with hazelnuts</p>
+                    </div>              
                 </li>
             </ul>
         </div>

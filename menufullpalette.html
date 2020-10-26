@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablette.css" />
     <title>Ohmyfood</title>
     <link rel="stylesheet" href="css/style2.css">
 </head>
@@ -16,7 +17,8 @@
     </header>
 
     <main>
-        <h2 class="logo">The Full Palette<i class="far fa-heart"></i></h2>
+        <h2 class="logo">The Full Palette<input type="checkbox" class="heart" id="heart">
+            <label for ="heart"></label></h2>
 
         <div class=entrees><h3>ENTREES</h3>
             <hr>
@@ -24,7 +26,8 @@
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">25€</div> 
-                    <div><p>Escargots</p>
+                    <div>
+                        <p class="nom">Escargots</p>
                         <p>with southen French spices</p>
                     </div>               
                 </li>
@@ -32,20 +35,20 @@
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">35€</div>
-                    <div><p>Duck Foie Gras</p>
-                        <p>with black truffle shavings</p></div>
-                    
+                    <div>
+                        <p class="nom">Duck Foie Gras</p>
+                        <p>with black truffle shavings</p>
+                    </div>                  
                 </li>
 
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">20€</div>
-                    <div><p>Fried egg</p>
+                    <div>
+                        <p class="nom">Fried egg</p>
                         <p>...</p></div>                   
                 </li>
-            </ul>
-            
-           
+            </ul>          
         </div>
 
         <div class=dish><h3>MAIN DISH</h3>
@@ -54,22 +57,28 @@
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">40€</div>
-                    <div><p>Herb-Encrusted Steak</p>
-                        <p>With delicately sliced and seasoned vegetables</p></div>               
+                    <div>
+                        <p class="nom">Herb-Encrusted Steak</p>
+                        <p>With delicately sliced and seasoned vegetables</p>
+                    </div>               
                 </li>
 
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">35€</div>
-                    <div><p>Ox Tail Shepard's Pie</p>
-                        <p>with black truffle and puree parsnips</p></div>                    
+                    <div>
+                        <p class="nom">Ox Tail Shepard's Pie</p>
+                        <p>with black truffle and puree parsnips</p>
+                    </div>                    
                 </li>
 
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">44€</div>
-                    <div><p>Filet of Sole</p>
-                        <p>with citrus dressing</p></div>                   
+                    <div>
+                        <p class="nom">Filet of Sole</p>
+                        <p>with citrus dressing</p>
+                    </div>                   
                 </li>
             </ul>
         </div>
@@ -79,20 +88,23 @@
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">18€</div>
-                    <div><p>Paris-Brest</p>
-                    <p>Revisited</p></div>             
+                    <div>
+                        <p class="nom">Paris-Brest</p>
+                        <p>Revisited</p></div>             
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">22€</div>
-                    <div><p>Chocolate Macaroons</p>
-                    <p>with vanilla ice cream</p></div>             
+                    <div>
+                        <p class="nom">Chocolate Macaroons</p>
+                        <p>with vanilla ice cream</p></div>             
                 </li>
                 <li>
                     <div class="check"><i class="fas fa-check-circle"></i></div>
                     <div class="price">23€</div>
-                    <div><p>Chocolate Mousse</p>
-                    <p>with spices and black truffle</p></div>              
+                    <div>
+                        <p class="nom">Chocolate Mousse</p>
+                        <p>with spices and black truffle</p></div>              
                 </li>
             </ul>
         </div>
