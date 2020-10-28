@@ -78,6 +78,16 @@ h2  {
   }
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 .entrees li {
   animation-name: fadein;
   animation-duration: 2000ms;
@@ -94,6 +104,9 @@ h2  {
 }
 
 main li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border-radius: 11px;
   border: 2px solid white;
   margin-top: 1px;
@@ -101,11 +114,28 @@ main li {
   background-color: white;
   list-style-type: none;
   margin-bottom: 4%;
-  margin-left: -5%;
+  margin-left: -4%;
   margin-right: 6%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+}
+
+.menu {
+  width: 57%;
+}
+
+.menu p {
+  margin: 0%;
+  font-size: 0.9rem;
+  padding-top: 4%;
+  height: 18px;
+  width: 88%;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.price {
+  margin: 0% 0% 0% 24%;
 }
 
 li:hover > .check {
@@ -114,38 +144,29 @@ li:hover > .check {
   transform: scalex(1);
   transition: transform 1000ms;
   transform-origin: right 50%;
+  margin-left: 1%;
+}
+
+li:hover > .check i{
+  animation: spin 1s linear
 }
 
 .check {
   color: white;
   width: 0%;
   margin: -2px;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 0px;
   padding: 0%;
   transform: scalex(0);}
 
 .check i {
-  margin-left: 25%;
-  margin-top: 50%;
+  position: relative;
+  top: 36%;
+  left: 35%;
 }
 
-.check i:hover{
-  animation: spin 2s linear;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-hr {
-  width: 11%;
-  margin: 0 0 0 6%;
-  color: #99E2D0;
+.nom{
+  font-weight: bold;
 }
 
 h3{
@@ -153,29 +174,11 @@ h3{
   margin-left: 26px;
 }
 
-.price {
-  margin-left: 16%;
+hr {
+  width: 11%;
+  margin: 0 0 0 6%;
+  color: #99E2D0;
 }
-
-li p {
-  margin: 0%;
-  font-size: 0.9rem;
-  padding-top: 3%;
-  width: 250px; 
-  overflow: hidden;
-  text-overflow: ellipsis;
-  height: 18px;
-  width: 140px;   
-  overflow: hidden;
-  position: relative;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.nom{
-  font-weight: bold;
-}
-
 
 .btn_order {
   background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);

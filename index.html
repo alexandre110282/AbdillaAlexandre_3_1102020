@@ -7,6 +7,7 @@
         <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablette.css" />
         <title>Ohmyfood</title>
         <link rel="stylesheet" href="css/cartestyle.css">
+        <STYLE>A {text-decoration: none;} </STYLE>
     </head>
     <body>
     
@@ -16,12 +17,15 @@
     
         <header>
             <h1 class="logo">Ohmyfood</h1>
-                <div class="localisation"><p><i class="fas fa-map-marker-alt"></i>Paris, Belleville</p></div>
-        
+                <div class="localisation">
+                    <p><i class="fas fa-map-marker-alt"></i>Paris, Belleville</p>
+                </div>   
                 <div class="book">
                     <h2>Book the menu you like</h2>
                         <p>Discover top-of-the-art restaurants we picked for you</p>
-                <div class="btn_explore"><p>Explore our Restaurants</p></div>
+                <div class="btn_explore">
+                    <p>Explore our Restaurants</p>
+                </div>
                 </div>
         </header>
     
@@ -30,13 +34,16 @@
                 <h2>How it works</h2> 
                     <ol>
                         <li>              
-                            <div class="number">1</div><div><p><i class="fas fa-mobile-alt"></i>Choose a restaurant</p></div>
+                            <div class="number">1</div>
+                            <div><p><i class="fas fa-mobile-alt"></i>Choose a restaurant</p></div>
                         </li>
                         <li>
-                            <div class="number">2</div><div><p><i class="fas fa-list-ul"></i>Create your menu</p></div>
+                            <div class="number">2</div>
+                            <div><p><i class="fas fa-list-ul"></i>Create your menu</p></div>
                         </li>
                         <li>
-                            <div class="number">3</div><div><p><i class="fas fa-store"></i>Go enjoy it at the restaurant</p></div>
+                            <div class="number">3</div>
+                            <div><p><i class="fas fa-store"></i>Go enjoy it at the restaurant</p></div>
                         </li>
                  </ol>  
             </section>
@@ -44,59 +51,76 @@
             <section id="restaurant">
                 <h2>Restaurants</h2>
     
-                    <div class="btn fullpalette"><a href="menufullpalette.html"><img src="images/fullpalette.jpg" height="200" width="280" alt="fullpalette"/></a>
-                        <div class="new"><p>New</p></div>
-                        <div class="ville">
-                            <div><p class="nom">The Full Palette</p> 
-                                 <p>New York</p>
-                            </div>                          
-                            <div>              
+                    <div class="btn fullpalette">
+                        <a href="menufullpalette.html"><img src="images/fullpalette.jpg" alt="fullpalette"/>
+                            <div class="new">
+                                <p>New</p>
+                            </div>
+                            <div class="ville">
+                                <div class="lieu">
+                                    <p class="nom">The Full Palette</p> 
+                                    <p>New York</p>
+                                </div>                          
+                                <div>              
                                 <input type="checkbox" class="heart1" id="heart1">
                                 <label for ="heart1"></label>            
-                            </div>                         
-                        </div>     
+                                </div>                         
+                            </div>
+                        </a>     
                     </div>
                       
-                    <div class="btn enchanted"><a href="menuenchanted.html"><img src="images/enchanted.jpg" height="200" width="280" alt="enchanted"/></a>
-                        <div class="new"><p>New</p></div>
-                        <div class="ville">
-                            <div>
-                                <p class="nom">The Enchanted Plate</p>
-                                <p>New York</p>
-                            </div>                         
-                            <div>
-                                <input type="checkbox" class="heart2" id="heart2">
-                                <label for ="heart2"></label>                               
+                    <div class="btn enchanted">
+                        <a href="menuenchanted.html"><img src="images/enchanted.jpg" alt="enchanted"/>
+                            <div class="new">
+                                <p>New</p>
                             </div>
-                        </div>
+                            <div class="ville">
+                                <div class="lieu">
+                                    <p class="nom">The Enchanted Plate</p>
+                                    <p>New York</p>
+                                </div>                         
+                                <div>
+                                    <input type="checkbox" class="heart2" id="heart2">
+                                    <label for ="heart2"></label>                               
+                                </div>
+                            </div>
+                        </a>
                     </div>
     
-                    <div class="btn bastille"><a href="menubastille.html"><img src="images/bastille.jpg" height="200" width="280" alt="bastille"/></a>
-                        <div class="new"><p>New</p></div>
-                        <div class="ville">
-                            <div>
-                                <p class="nom">Bastille</p>
-                                <p>New York</p>
+                    <div class="btn bastille">
+                        <a href="menubastille.html"><img src="images/bastille.jpg" alt="bastille"/>
+                            <div class="new">
+                                <p>New</p>
                             </div>
-                             <div>              
-                                <input type="checkbox" class="heart3" id="heart3">
-                                <label for ="heart3"></label>            
-                          </div>
-                        </div>
+                                <div class="ville">
+                                    <div class="lieu">
+                                        <p class="nom">Bastille</p>
+                                        <p>New York</p>
+                                    </div>
+                                    <div>              
+                                        <input type="checkbox" class="heart3" id="heart3">
+                                        <label for ="heart3"></label>            
+                                    </div>
+                            </div>
+                        </a>
                     </div>
     
-                    <div class="btn gourmand"><a href="menugourmand.html"><img src="images/gourmand.jpg" height="200" width="280" alt="gourmand"/></a>
-                        <div class="new"><p>New</p></div>
-                        <div class="ville">
-                            <div>
-                                <p class="nom">Le Gourmand</p>
-                                <p>New York</p>
+                    <div class="btn gourmand">
+                        <a href="menugourmand.html"><img src="images/gourmand.jpg" alt="gourmand"/>
+                            <div class="new">
+                                <p>New</p>
                             </div>
-                            <div>              
-                                <input type="checkbox" class="heart4" id="heart4">
-                                <label for ="heart4"></label>            
+                            <div class="ville">
+                                <div class="lieu">
+                                    <p class="nom">Le Gourmand</p>
+                                    <p>New York</p>
+                                </div>
+                                <div>              
+                                    <input type="checkbox" class="heart4" id="heart4">
+                                    <label for ="heart4"></label>            
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
             </section>   
         </main>    
