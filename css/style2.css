@@ -26,6 +26,7 @@ header h2 {
 
 header i {
   position: absolute;
+  margin-left: 20px;
 }
 
 .logo {
@@ -107,11 +108,10 @@ main li {
   flex-direction: row;
   justify-content: space-between;
   border-radius: 11px;
-  border: 2px solid white;
-  box-shadow: 1px 1px 5px 3px #99E2D0;
+  box-shadow: 1px 1px 14px 0px #99E2D0;
   background-color: white;
   list-style-type: none;
-  margin: 2% 5% 2% -2%;
+  margin: 5% 6% -1% -2%;
 }
 
 .menu {
@@ -132,6 +132,7 @@ main li {
 
 .price {
   margin: 0% 0% 0% 24%;
+  font-weight: bold;
 }
 
 li:hover > .check {
@@ -150,7 +151,7 @@ li:hover > .check i{
 .check {
   color: white;
   width: 0%;
-  margin: -2px;
+  margin: 0px;
   border-radius: 0px 10px 10px 0px;
   padding: 0%;
   transform: scalex(0);
@@ -167,14 +168,17 @@ li:hover > .check i{
 }
 
 h3{
-  margin-bottom: 0;
-  margin-left: 26px;
+  margin: 39px 0px 0px 26px;
 }
 
 hr {
   width: 44px;
+
   margin: 0 0 0 27px;
   color: #99E2D0;
+  height: 4px;
+  background-color: #99E2D0;
+  border: none;
 }
 
 .btn_order {
@@ -185,11 +189,10 @@ hr {
   margin: 10% 25%;
   padding: 0.05px;
   text-align: center;
-  transition: 0.5s;
-  background-size: 84% auto;
   color: white;
-  box-shadow: 0px 0px 6px 5px #99E2D0;
+  box-shadow: 0px 0px 8px 3px #99E2D0;
   border-radius: 50px;
+  background-image: linear-gradient(to bottom right, #FF79DA 0%, #9356DC 51%, #DA22FF 100%);
 }
 
 .btn_order:hover {
@@ -200,12 +203,13 @@ hr {
 footer {
   background-color: #303030;
   color: white;
-  padding: 1px;
 }
 
 footer .logo{
-  margin-left: 9%;
-  padding-top: 6%
+  margin-left: 40px;
+  padding-top: 6%;
+  font-size: 126%;
+  font-weight: 100;
 }
 
 footer a{
@@ -217,5 +221,8 @@ footer li {
   list-style-type: none;
   padding-bottom: 2%;
 }
+ footer i{
+   margin-right:3%;
+ }
 
 /*# sourceMappingURL=style2.css.map */
