@@ -109,13 +109,10 @@ main li {
   justify-content: space-between;
   border-radius: 11px;
   border: 2px solid white;
-  margin-top: 1px;
   box-shadow: 1px 1px 5px 3px #99E2D0;
   background-color: white;
   list-style-type: none;
-  margin-bottom: 4%;
-  margin-left: -4%;
-  margin-right: 6%;
+  margin: 2% 5% 2% -2%;
 }
 
 .menu {
@@ -123,7 +120,7 @@ main li {
 }
 
 .menu p {
-  margin: 0%;
+  margin: -2% 0% 0% 3%;
   font-size: 0.9rem;
   padding-top: 4%;
   height: 18px;
@@ -157,12 +154,13 @@ li:hover > .check i{
   margin: -2px;
   border-radius: 0px 10px 10px 0px;
   padding: 0%;
-  transform: scalex(0);}
+  transform: scalex(0);
+  display: inline-block;
+  text-align: center;
+}
 
-.check i {
-  position: relative;
-  top: 36%;
-  left: 35%;
+.check p {
+  padding-top: 15%;
 }
 
 .nom{
@@ -175,8 +173,8 @@ h3{
 }
 
 hr {
-  width: 11%;
-  margin: 0 0 0 6%;
+  width: 44px;
+  margin: 0 0 0 27px;
   color: #99E2D0;
 }
 
