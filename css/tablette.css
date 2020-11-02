@@ -1,14 +1,17 @@
-@media screen and ( min-width: 767px) 
+@media screen and ( min-width: 426px) 
 {
     
-    body{
-        min-width: fit-content;
+    main, aside{
+        display: flex;
+        flex-direction: row;
+        background-color: blue;
     }
 
-
-    
-
-    .check i{
-        font-size: 125%;
+    main{
+        width: 50%;
     }
-}
+
+    aside{
+        width: 50%;
+    }
+}  

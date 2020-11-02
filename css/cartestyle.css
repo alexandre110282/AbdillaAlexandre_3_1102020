@@ -38,10 +38,12 @@
   top: 50%;
   right: 38%;
   border-radius: 50%;
-  border: 6px solid #99e2d0;
+  
   width: 115px;
   height: 115px;
   animation: fadeout 3s linear;
+  
+ 
 }
 
 .loader::after {
@@ -51,10 +53,10 @@
   left: -6px;
   width: 100%;
   height: 100%;
-  border: 6px solid transparent;
-  border-top-color: white;
+ 
   border-radius: 50%;
   animation: spin 3s linear;
+  
 }
 
 body{
@@ -62,7 +64,7 @@ body{
   margin: 0;
 }
 
-header, main, footer{
+header,aside, main, footer{
   animation-name: fadein;
   animation-duration: 3100ms;
 }
@@ -71,13 +73,17 @@ header, main, footer{
   0% {
     transform: rotate(0deg);
     position: absolute;
+    border: 6px solid #99e2d0;
+    border-top-color: white;
   }
   90%{
     position: absolute;
+    border: 6px solid #99e2d0;
+    border-top-color: white;
   }
   100% {
     transform: rotate(360deg);
-    display: none;
+  
   }
 }
 
@@ -85,10 +91,13 @@ header, main, footer{
   0% {
     opacity: 1;
     position: absolute;
+    border: 6px solid transparent;
   }
+  
   90% {
     opacity: 1;
     position: absolute;
+    border: 6px solid transparent;
   }
   100% {
     opacity: 0;
@@ -99,18 +108,18 @@ header, main, footer{
   font-family: Shrikhandregular;
 }
 
-header {
+#up, header {
   text-align: center;
 }
 
-header i{
+#up i{
   margin-right: 2%;
 }
 
 .localisation p {
   background-color: rgba(234,234,234);
   padding: 3%;
-  border: 1mm ridge black;
+  border-top: 1mm inset rgba(234,234,234,0.4);
   margin-bottom: 0;
 }
 
@@ -145,11 +154,12 @@ header i{
 
 #tutorial li {
   border-radius: 19px;
-  box-shadow: 9px 9px 6px rgba(153, 226, 208, 0.4);
+  box-shadow: 6px 5px 5px rgba(153, 226, 208, 0.4);
   padding: 5%;
   margin-top: 5%;
   margin-right: 14%;
   margin-left: 3%;
+  padding: 1px;
   display: flex;
   font-weight: bold;
   background-color: #e8f9f5;
@@ -157,8 +167,7 @@ header i{
 
 #tutorial li:hover {
   filter: brightness(1.1);
-  box-shadow: 2px 1px 3px black;
-  background-color: rgba(147, 86, 220, 0.3);
+  background-color: rgba(277,204,255);
 }
 
 #tutorial {
@@ -287,10 +296,12 @@ border-radius: 3px;
   border: 1px solid transparent;
   border-radius: 50%;
   width: 19px;
+  height: 19px;
   background-color: #9356DC;
   padding: 0px;
   text-align: center;
-  margin-left: -9%;
+  margin-left: -2%;
+  margin-top: 13px;
 }
 
 main {
@@ -355,4 +366,3 @@ footer li {
  footer i{
    margin-right:3%;
  }
-/*# sourceMappingURL=cartestyle.css.map */
