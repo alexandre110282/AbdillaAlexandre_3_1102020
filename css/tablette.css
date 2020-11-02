@@ -1,17 +1,30 @@
 @media screen and ( min-width: 426px) 
 {
     
-    main, aside{
+    body{
+        text-align: center;
+    }
+    
+
+    #tutorial ol{
         display: flex;
         flex-direction: row;
-        background-color: blue;
+        
     }
 
-    main{
-        width: 50%;
+    #tutorial li {
+        flex: none;
+        width: 31%;
     }
 
-    aside{
-        width: 50%;
+    #restaurant {
+        display: flex;
+        flex-flow: wrap;
     }
+    .btn {
+        width: 36%;
+    }
+    main h2, #tutorial h2 {
+        margin-right: 10%;
+      }
 }  
