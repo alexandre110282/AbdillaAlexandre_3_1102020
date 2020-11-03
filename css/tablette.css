@@ -5,26 +5,23 @@
         text-align: center;
     }
     
-
-    #tutorial ol{
-        display: flex;
-        flex-direction: row;
+    #tutorial ul{
+        width: max-content;
+        margin: auto;
         
     }
 
-    #tutorial li {
-        flex: none;
-        width: 31%;
-    }
-
-    #restaurant {
+    #restaurant img {
         display: flex;
         flex-flow: wrap;
     }
+
     .btn {
-        width: 36%;
+        width: 34%;
+        text-align: left;
     }
     main h2, #tutorial h2 {
         margin-right: 10%;
       }
+
 }  
