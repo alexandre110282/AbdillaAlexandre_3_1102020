@@ -39,7 +39,6 @@
   top: 50%;
   right: 38%;
   border-radius: 50%;
-  
   width: 115px;
   height: 115px;
   animation: fadeout 3s linear;
@@ -64,7 +63,7 @@ body{
   margin: 0;
 }
 
-header,aside, main, footer{
+ header,#cart, main, footer{
   animation-name: fadein;
   animation-duration: 3100ms;
 }
@@ -76,7 +75,7 @@ header,aside, main, footer{
     border: 6px solid #99e2d0;
     border-top-color: white;
   }
-  90%{
+  99%{
     position: absolute;
     border: 6px solid #99e2d0;
     border-top-color: white;
@@ -94,7 +93,7 @@ header,aside, main, footer{
     border: 6px solid transparent;
   }
   
-  90% {
+  99% {
     opacity: 1;
     position: absolute;
     border: 6px solid transparent;
