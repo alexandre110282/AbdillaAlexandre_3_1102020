@@ -1,12 +1,17 @@
 @media screen and ( min-width: 426px) {
 
-body{
-    width: 36%;
+main{
+    width: 44%;
+    margin: auto;
 }
 
+header {
+    height: 359px;
+}
 
-
-
+footer{
+    padding-top: 1%;
+}
 
 
 

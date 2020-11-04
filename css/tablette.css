@@ -8,12 +8,12 @@
     #tutorial ul{
         width: max-content;
         margin: auto;
+        display: flex;
         
     }
 
     #restaurant img {
-        display: flex;
-        flex-flow: wrap;
+        margin-bottom: 2%;
     }
 
     .btn {
