@@ -13,6 +13,13 @@ footer{
     padding-top: 1%;
 }
 
+.photo {
+    width: 50%;
+    margin: auto;
+}
 
+body{
+    background-color: rgba(246, 246, 246)
+}
 
 }
