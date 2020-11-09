@@ -18,6 +18,10 @@ footer{
     margin: auto;
 }
 
+img{
+    height: 400px;
+}
+
 body{
     background-color: rgba(246, 246, 246)
 }
