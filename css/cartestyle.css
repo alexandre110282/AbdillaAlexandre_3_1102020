@@ -55,6 +55,14 @@
   height: 100%;
   border-radius: 50%;
   animation: spin 3s linear;
+  -webkit-content: "";
+  -webkit-position: relative;
+  -webkit-top: -6px;
+  -webkit-left: -6px;
+  -webkit-width: 100%;
+  -webkit-height: 100%;
+  -webkit-border-radius: 50%;
+  -webkit-animation: spin 3s linear;
   
 }
 
@@ -64,6 +72,8 @@ body{
 }
 
  header,.cart, main, footer{
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 3100ms;
   animation-name: fadein;
   animation-duration: 3100ms;
 }
