@@ -335,7 +335,7 @@ main i{
   display: inline-block
 }
 
-.btn:hover:hover {
+.btn:hover {
   filter: brightness(1.1);
   box-shadow: 1px 1px 15px black;
 }
